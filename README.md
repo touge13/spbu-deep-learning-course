@@ -1,12 +1,16 @@
 # SPbU Deep Learning Course
 
-## Домашние задания
+## ДЗ #1 — Stanford Cars
 
-1. Классификация автомобилей — Stanford Cars
+Обучение трёх архитектур с использованием итеративной аугментации,
+постепенной разморозки с адаптивным LR и псевдолейблинга.
+
+[Решение](hw_stanford_cars/stanford-cars.ipynb)
 
 ## Запуск
 
-```bash
+Python 3.13
+
 pip install -r requirements.txt
-jupyter notebook
-```
+
+jupyter lab hw_stanford_cars/stanford-cars.ipynb
