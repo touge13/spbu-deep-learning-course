@@ -1,0 +1,52 @@
+# Python bytecode and caches.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local settings.
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+.python-version
+
+# Jupyter notebooks.
+.ipynb_checkpoints/
+
+# Datasets, model weights, and experiment artifacts.
+**/data/
+**/datasets/
+**/checkpoints/
+**/weights/
+**/runs/
+**/outputs/
+**/logs/
+**/wandb/
+**/mlruns/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# Operating systems and editors.
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Distribution files.
+build/
+dist/
+*.egg-info/
